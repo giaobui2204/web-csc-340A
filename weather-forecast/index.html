@@ -5,21 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        table {
-            width: 50%;
-            margin: auto;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 10px;
-            border: 1px solid #000;
-            text-align: center;
-        }
-        .material-icons {
-            font-size: 24px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -38,15 +24,19 @@
         <tbody>
             <tr>
                 <td>Monday</td>
-                <td><span class="material-icons">wb_sunny</span></td>
+                <td><span class="material-icons sunny-icon">wb_sunny</span></td>
                 <td>25°C</td>
             </tr>
             <tr>
                 <td>Tuesday</td>
-                <td><span class="material-icons">cloud</span></td>
+                <td><span class="material-icons cloudy-icon">cloud</span></td>
                 <td>22°C</td>
             </tr>
-            <!-- Add more days as needed -->
+            <tr>
+                <td>Wednesday</td>
+                <td><span class="material-icons rainy-icon">umbrella</span></td>
+                <td>20°C</td>
+            </tr>
         </tbody>
     </table>
 
