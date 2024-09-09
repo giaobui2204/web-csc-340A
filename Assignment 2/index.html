@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Concerts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Music Concerts</h1>
+        <p>Experience an unforgettable evening with live performances from your favorite artists.</p>
+    </header>
+
+    <!-- Concert Events Table -->
+    <section class="concert-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Album Cover</th>
+                    <th>Musician</th>
+                    <th>Genre</th>
+                    <th>Date & Time</th>
+                    <th>Ticket Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="src/artist1.jpg" alt="Album 1"></td>
+                    <td>Adele</td>
+                    <td>Pop</td>
+                    <td>November 12, 2024, 8:00 PM</td>
+                    <td><button onclick="showPrice('$100')">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <td><img src="src/artist2.jpg" alt="Album 2"></td>
+                    <td>Drake</td>
+                    <td>Hip-Hop</td>
+                    <td>November 20, 2024, 9:00 PM</td>
+                    <td><button onclick="showPrice('$120')">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <td><img src="src/artist3.jpg" alt="Album 3"></td>
+                    <td>Taylor Swift</td>
+                    <td>Pop/Country</td>
+                    <td>December 5, 2024, 7:30 PM</td>
+                    <td><button onclick="showPrice('$150')">Buy Ticket</button></td>
+                </tr>
+                <tr>
+                    <td><img src="src/artist4.jpg" alt="Album 4"></td>
+                    <td>BTS</td>
+                    <td>K-Pop</td>
+                    <td>December 12, 2024, 6:00 PM</td>
+                    <td><button onclick="showPrice('$200')">Buy Ticket</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
